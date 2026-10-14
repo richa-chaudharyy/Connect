@@ -1,0 +1,1811 @@
+/* landing Page */
+
+.landingPageContainer {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.landingPagenavbar {
+  width: 100%;
+  height: 3.4rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgb(214, 213, 213);
+  position: relative;
+  z-index: 10;
+}
+
+.navheader {
+  padding-inline: 1.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navheader .navlogo {
+  width: 2.55rem;
+  margin-right: 0.6rem;
+}
+
+.navlist {
+  gap: 1.2rem;
+  justify-content: space-around;
+  padding-inline: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navlist p, .login_p {
+  color: rgb(84, 83, 83);
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.navlist p:hover {
+  color: black;
+  background-color: rgb(244, 244, 244);
+}
+
+.navlist > .login_btn > .login_p {
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.landingPageherosection {
+  width: 100%;
+  height: 41vw;
+  background-image: url("/public/landingPage/landingpage_back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroleft {
+  width: 46%;
+  padding-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.heroleft h1 {
+  font-size: 2.6rem;
+}
+
+.heroleft .herotext {
+  color: rgb(87, 87, 87);
+  margin: 0.4rem 0 0.8rem 0;
+}
+
+.heroleft .start {
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 0.6rem;
+  width: 30%;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(75, 91, 232, 0.17);
+}
+
+.start .link {
+  color: white;
+}
+
+.heroleft h1 span {
+  font-size: 2.9rem;
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.herobadge {
+  display: flex;
+  border: 1px solid #e0dbff;
+  border-radius: 2rem;
+  padding-block: 0.55rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  width: 55%;
+  justify-content: center;
+  background-color: #f3f1ff;
+  color: #1F2942;
+  margin-top: 3.3rem;
+  /* padding-inline: 1rem; */
+}
+
+.heroinfodiv {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.heroinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.8rem;
+  background: #edebffb9;
+  border: 1px solid #E2DFFF;
+  border-radius: 14px;
+}
+
+.heroinfo h6 {
+  font-size: 0.8rem;
+  color:rgb(66, 66, 66);
+  margin-bottom: 0.1rem;
+}
+
+.heroinfo p {
+  font-size: 0.75rem;
+}
+
+.heroinfo img {
+  width: 2.5rem;
+  height: 2rem;
+  margin-right: 0.8rem;
+}
+
+.landingPagemiddlesection {
+  width: 100%;
+  height: 10rem;
+}
+
+.line_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.4rem;
+}
+
+.line {
+  width: 6rem;
+  height: 1px;
+  background-color: rgb(137, 137, 137);
+  margin-inline: 1rem;
+}
+
+.line_div p {
+  color: rgb(75, 75, 75);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.hero_middle_box {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.hero_middle_box img {
+  width: 3rem;
+  padding: 0.5rem;
+}
+
+.middle_box {
+  border: 1px solid #ECEEF5;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1.6rem;
+  padding-left: 0.8rem;
+  border-radius: 0.6rem;
+  background-color: #FFFFFF;
+}
+
+.green_badge {
+  background-color: #E8F8EF;
+  border-radius: 0.3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.purple_badge {
+  background-color: #EEE9FF;
+  border-radius: 0.3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.pink_badge {
+  background-color: #FDEBF2;
+  border-radius: 0.3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.middle_badge_info {
+  padding: 0.6rem 0.3rem 0.6rem 1rem;
+}
+
+.middle_badge_info h6 {
+  font-size: 0.9rem;
+  color:rgb(66, 66, 66);
+  margin-bottom: 0.2rem;
+}
+
+.middle_badge_info p {
+  font-size: 0.75rem;
+}
+
+
+
+/* Landing Page Responsive */
+
+@media (max-width: 1000px) {
+
+  .landingPageherosection {
+    height: auto;
+    min-height: 38rem;
+    padding-bottom: 2rem;
+    background-position: 65% center;
+  }
+
+  .heroleft {
+    width: 58%;
+  }
+
+  .heroleft h1 {
+    font-size: 2.2rem;
+  }
+
+  .heroleft h1 span {
+    font-size: 2.45rem;
+  }
+
+  .herobadge {
+    width: fit-content;
+    padding-inline: 1rem;
+  }
+
+  .heroleft .start {
+    width: 10rem;
+  }
+
+  .heroinfodiv {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .hero_middle_box {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .landingPagemiddlesection {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .landingPagenavbar {
+    min-height: 3.4rem;
+    height: auto;
+  }
+
+  .navheader {
+    padding-inline: 0.7rem;
+  }
+
+  .navheader h2 {
+    display: none;
+  }
+
+  .navheader .navlogo {
+    width: 2.3rem;
+    margin-right: 0;
+  }
+
+  .navlist {
+    padding-inline: 0.5rem;
+    gap: 0.2rem;
+  }
+
+  .navlist p,
+  .login_p {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+
+  .landingPageherosection {
+    min-height: calc(100vh - 3.4rem);
+    padding: 1.5rem 0 2.5rem;
+    background-position: center;
+  }
+
+  .heroleft {
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 1.2rem;
+  }
+
+  .herobadge {
+    margin-top: 1.5rem;
+    max-width: 100%;
+    font-size: 0.65rem;
+  }
+
+  .heroleft h1 {
+    font-size: 2rem;
+  }
+
+  .heroleft h1 span {
+    font-size: 2.15rem;
+  }
+
+  .heroleft .herotext {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .heroleft .start {
+    width: 100%;
+    max-width: 12rem;
+  }
+
+  .heroinfodiv {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .heroinfo {
+    justify-content: flex-start;
+  }
+
+  .hero_middle_box {
+    padding-inline: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle_box {
+    width: 100%;
+    max-width: 25rem;
+    box-sizing: border-box;
+    margin-top: 0.8rem;
+  }
+
+  .line_div {
+    padding-inline: 1rem;
+    text-align: center;
+  }
+
+  .line {
+    width: 2rem;
+    margin-inline: 0.5rem;
+  }
+
+  .line_div p {
+    font-size: 0.78rem;
+  }
+
+}
+
+
+/* Authentication Page */
+
+.authenticationPage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #0d1536;
+}
+
+.authBrandLinkDiv {
+  position: absolute;
+  top: 1.7rem;
+  left: 2.8rem;
+  z-index: 2;
+}
+
+.authBrandLink {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #0d1536;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.authBrandLink img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.authBrandLink h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.authenticationCard {
+  position: absolute;
+  top: 50%;
+  right: 2.2rem;
+  transform: translateY(-50%);
+  width: 30.5rem;
+  height: 33.5rem;
+  box-sizing: border-box;
+  padding: 1.6rem 2rem 1.7rem;
+  border: 1px solid #dfe4f3;
+  border-radius: 1.4rem;
+  background-color: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 24px rgba(77, 91, 150, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.authSwitch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.65rem;
+  color: #66708d;
+  font-size: 0.9rem;
+}
+
+.authSwitch button {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #3b25f4;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.authFormContent {
+  width: 100%;
+  flex: 1;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.authLockIcon {
+  width: 3.7rem;
+  height: 3.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #6036ef;
+  background-color: #f4efff;
+}
+
+.authLockIcon svg {
+  font-size: 1.95rem;
+}
+
+.authFormContent h1 {
+  margin: 0.65rem 0 0;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.authSubtitle {
+  margin-top: 0.35rem;
+  color: #737d99;
+  font-size: 0.92rem;
+  text-align: center;
+}
+
+.authFields {
+  width: 100%;
+  margin-top: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.authInput {
+  width: 100%;
+  height: 3.05rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding-inline: 1rem;
+  border: 1px solid #d3d9e7;
+  border-radius: 0.6rem;
+  background-color: white;
+  color: #677492;
+}
+
+.authInput:focus-within {
+  border-color: #665df2;
+}
+
+.authInput svg {
+  font-size: 1.3rem;
+}
+
+.authInput input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #1f2942;
+  font-family: inherit;
+  font-size: 0.94rem;
+}
+
+.authInput input::placeholder {
+  color: #7a84a0;
+}
+
+.authError {
+  width: 100%;
+  margin: 0.45rem 0 0;
+  color: #d9364f;
+  font-size: 0.8rem;
+}
+
+.authSubmitButton {
+  width: 60%;
+  height: 2.9rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem;
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+  color: white;
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(75, 91, 232, 0.17);
+}
+
+.authSubmitButton svg {
+  font-size: 1.3rem;
+}
+
+.authCardExtraText {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 0.9rem;
+  border-top: 1px solid #e7e9f2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.authCardExtraText p {
+  margin: 0;
+  color: #65708d;
+  font-size: 0.86rem;
+}
+
+.authCardExtraText span {
+  display: block;
+  margin-top: 0.35rem;
+  color: #7d86a0;
+  font-size: 0.73rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+  .authPageText {
+    left: 3rem;
+  }
+
+  .authenticationCard {
+    right: 1.5rem;
+    width: 27rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .authenticationPage {
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+    padding-bottom: 2rem;
+  }
+
+  .authBrandLinkDiv {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 1.5rem;
+  }
+
+  .authPageText {
+    display: none;
+  }
+
+  .authenticationCard {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    width: calc(100% - 2rem);
+    max-width: 30rem;
+    height: 33.5rem;
+    margin: 2rem auto 0;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+
+  .authenticationPage {
+    padding-bottom: 1rem;
+  }
+
+  .authBrandLinkDiv {
+    margin: 1rem;
+  }
+
+  .authBrandLink img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .authBrandLink h2 {
+    font-size: 1.1rem;
+  }
+
+  .authenticationCard {
+    width: calc(100% - 1.4rem);
+    height: auto;
+    min-height: 33rem;
+    margin-top: 1rem;
+    padding: 1.3rem 1.1rem;
+    border-radius: 1rem;
+  }
+
+  .authSwitch {
+    font-size: 0.8rem;
+    gap: 0.4rem;
+  }
+
+  .authSwitch button {
+    font-size: 0.8rem;
+  }
+
+  .authFormContent {
+    margin-top: 1.5rem;
+  }
+
+  .authFormContent h1 {
+    font-size: 1.65rem;
+  }
+
+  .authSubmitButton {
+    width: 100%;
+  }
+
+}
+
+
+/* Home Page */
+
+.homePage {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #0d1536;
+}
+
+
+/* Navbar */
+
+.homeNavbar {
+  width: 100%;
+  height: 4.1rem;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 2rem;
+
+  background-color: #ffffff;
+
+  border-bottom: 1px solid #edf0f7;
+
+  box-shadow: 0 3px 12px rgba(75, 88, 145, 0.08);
+
+  position: relative;
+  z-index: 10;
+}
+
+
+.homeBrand {
+  display: flex;
+  align-items: center;
+
+  gap: 0.7rem;
+
+  cursor: pointer;
+}
+
+
+.homeBrand img {
+  width: 2.8rem;
+  height: 2.8rem;
+
+  object-fit: contain;
+}
+
+
+.homeBrand h2 {
+  margin: 0;
+
+  font-size: 1.35rem;
+  font-weight: 700;
+
+  color: #0d1536;
+}
+
+
+.homeNavRight {
+  display: flex;
+  align-items: center;
+
+  gap: 1.6rem;
+}
+
+.historyButton,
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  color: rgb(84, 83, 83);
+  font-size: 1rem;
+  font-weight: 500;
+
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+
+  background: transparent;
+  border: none;
+
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.historyButton:hover,
+.logoutButton:hover {
+  color: black;
+  background-color: rgb(244, 244, 244);
+}
+
+.historyButton svg {
+  font-size: 1.35rem;
+}
+
+
+/* Main Hero */
+
+.homeHero {
+  width: 100%;
+
+  height: calc(100vh - 4.2rem);
+
+  box-sizing: border-box;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.homeHeroLeft {
+  width: 45%;
+
+  margin-left: 9%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+/* Small badge */
+
+.homeBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e0dbff;
+  border-radius: 2rem;
+  background-color: #f3f1ff;
+  color: #303955;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+
+.homeBadge svg {
+  color: #5d55ef;
+  font-size: 1.1rem;
+}
+
+
+
+/* Heading */
+
+.homeHeroLeft h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: #0d1536;
+  font-weight: 750;
+}
+
+
+.homeHeroLeft h1 span {
+  font-size: 3.2rem;
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+}
+
+
+
+/* Description */
+
+.homeDescription {
+  width: 80%;
+
+  margin-top: 1rem;
+  margin-bottom: 1.7rem;
+
+  color: #66708d;
+
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
+
+/* Join area */
+
+.meetingJoinBox {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 0.8rem;
+}
+
+
+.meetingInput {
+  width: 21rem;
+  height: 3.2rem;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+
+  gap: 0.7rem;
+
+  padding: 0 1rem;
+
+  background-color: white;
+
+  border: 1px solid #d8deeb;
+  border-radius: 0.65rem;
+}
+
+
+.meetingInput:focus-within {
+  border-color: #665df2;
+
+  box-shadow: 0 0 0 3px rgba(102, 93, 242, 0.07);
+}
+
+
+.meetingInput svg {
+  color: #667392;
+
+  font-size: 1.35rem;
+}
+
+
+.meetingInput input {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #1f2942;
+
+  font-family: inherit;
+  font-size: 0.92rem;
+}
+
+
+.meetingInput input::placeholder {
+  color: #8992aa;
+}
+
+
+
+/* Join button */
+
+.joinMeetingButton {
+  height: 3.2rem;
+
+  min-width: 10rem;
+
+  border: none;
+
+  border-radius: 0.65rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.65rem;
+
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+
+  color: white;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 6px 14px rgba(75, 91, 232, 0.17);
+}
+
+
+.joinMeetingButton svg {
+  font-size: 1.4rem;
+}
+
+
+.joinMeetingButton:hover {
+  box-shadow: 0 8px 18px rgba(75, 91, 232, 0.24);
+}
+
+
+
+/* Features */
+
+.homeFeatures {
+  display: flex;
+  align-items: center;
+
+  gap: 2.2rem;
+
+  margin-top: 2.5rem;
+}
+
+
+.homeFeature {
+  display: flex;
+  align-items: center;
+
+  gap: 0.55rem;
+
+  color: #596581;
+}
+
+
+.homeFeature p {
+  margin: 0;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+
+.featureIcon {
+  width: 2.25rem;
+  height: 2.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background-color: #ece9fd;
+
+  color: #5963aa;
+}
+
+
+.featureIcon svg {
+  font-size: 1.15rem;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+
+  .homeHero {
+    background-position: 65% center;
+  }
+
+
+  .homeHeroLeft {
+    width: 55%;
+
+    margin-left: 5%;
+  }
+
+
+  .homeHeroLeft h1 {
+    font-size: 2.4rem;
+  }
+
+
+  .homeHeroLeft h1 span {
+    font-size: 2.6rem;
+  }
+
+
+  .meetingJoinBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .meetingInput {
+    width: 100%;
+  }
+
+
+  .joinMeetingButton {
+    width: 100%;
+  }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+  .homeNavbar {
+    height: 4rem;
+    padding: 0 0.8rem;
+  }
+
+  .homeBrand h2 {
+    display: none;
+  }
+
+  .homeBrand img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .homeNavRight {
+    gap: 0.2rem;
+  }
+
+  .historyButton,
+  .logoutButton {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .homeHero {
+    height: auto;
+    min-height: calc(100vh - 4rem);
+    padding: 3rem 0;
+    background-position: center;
+  }
+
+  .homeHeroLeft {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+  }
+
+  .homeBadge {
+    max-width: 100%;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.67rem;
+  }
+
+  .homeHeroLeft h1 {
+    font-size: 2.1rem;
+  }
+
+  .homeHeroLeft h1 span {
+    font-size: 2.25rem;
+  }
+
+  .homeDescription {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .meetingJoinBox {
+    width: 100%;
+  }
+
+  .meetingInput,
+  .joinMeetingButton {
+    width: 100%;
+  }
+
+  .homeFeatures {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .homeFeature {
+    flex: 1 1 auto;
+  }
+
+}
+
+
+/* ================================= */
+/* History Page */
+/* ================================= */
+
+.historyPage {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #0d1536;
+}
+
+
+/* Navbar */
+
+.historyNavbar {
+  width: 100%;
+  height: 4.2rem;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 2rem;
+
+  background-color: white;
+
+  border-bottom: 1px solid #edf0f7;
+
+  box-shadow: 0 3px 12px rgba(75, 88, 145, 0.08);
+
+  position: relative;
+  z-index: 10;
+}
+
+
+.historyBrand {
+  display: flex;
+  align-items: center;
+
+  gap: 0.7rem;
+
+  cursor: pointer;
+}
+
+
+.historyBrand img {
+  width: 2.8rem;
+  height: 2.8rem;
+
+  object-fit: contain;
+}
+
+
+.historyBrand h2 {
+  margin: 0;
+
+  font-size: 1.35rem;
+  font-weight: 700;
+
+  color: #0d1536;
+}
+
+
+.historyNavRight {
+  display: flex;
+  align-items: center;
+
+  gap: 1.2rem;
+}
+
+
+/* Same type of buttons as landing page */
+
+.historyHomeButton,
+.historyLogoutButton {
+  display: flex;
+  align-items: center;
+
+  gap: 0.4rem;
+
+  padding: 0.45rem 0.9rem;
+
+  border: none;
+  border-radius: 0.35rem;
+
+  background: transparent;
+
+  color: rgb(84, 83, 83);
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+
+.historyHomeButton:hover,
+.historyLogoutButton:hover {
+  color: black;
+
+  background-color: rgb(244, 244, 244);
+}
+
+
+.historyHomeButton svg {
+  font-size: 1.3rem;
+}
+
+
+
+/* Main Page */
+
+.historyMain {
+  width: 100%;
+  min-height: calc(100vh - 4.2rem);
+
+  box-sizing: border-box;
+
+  padding: 3.5rem 8% 4rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+
+.historyContent {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+
+
+/* Heading */
+
+.historyHeading {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+
+.historyTitleIcon {
+  width: 3.4rem;
+  height: 3.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.8rem;
+
+  background-color: #e9e6fd;
+
+  color: #5b55ec;
+}
+
+
+.historyTitleIcon svg {
+  font-size: 1.8rem;
+}
+
+
+.historyHeading h1 {
+  margin: 0;
+
+  color: #0d1536;
+
+  font-size: 2.4rem;
+  font-weight: 750;
+}
+
+
+.historyHeading h1 span {
+  background: linear-gradient(
+    90deg,
+    #4967EA,
+    #6553ef
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+
+.historyHeading p {
+  margin: 0.45rem 0 0;
+
+  color: #707a96;
+
+  font-size: 0.95rem;
+}
+
+
+
+/* Meeting Count */
+
+.historySummary {
+  width: fit-content;
+
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  margin-top: 1.8rem;
+
+  padding: 0.45rem 0.9rem;
+
+  border: 1px solid #e1ddff;
+  border-radius: 2rem;
+
+  background-color: #f4f2ff;
+
+  color: #525d7d;
+
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+
+.historySummary svg {
+  color: #6258ef;
+
+  font-size: 1.15rem;
+}
+
+
+
+/* Cards Area */
+
+.historyCards {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fill, minmax(285px, 1fr));
+
+  gap: 1.3rem;
+
+  margin-top: 2rem;
+}
+
+
+
+/* Individual Card */
+
+.meetingHistoryCard {
+  box-sizing: border-box;
+
+  padding: 1.4rem;
+
+  border: 1px solid #e2e5ef;
+  border-radius: 0.9rem;
+
+  background: rgba(255, 255, 255, 0.94);
+
+  box-shadow: 0 5px 18px rgba(74, 85, 140, 0.07);
+
+  transition: 0.2s ease;
+}
+
+
+.meetingHistoryCard:hover {
+  transform: translateY(-3px);
+
+  border-color: #d5d0ff;
+
+  box-shadow: 0 9px 22px rgba(74, 85, 140, 0.11);
+}
+
+
+
+/* Card Heading */
+
+.historyCardTop {
+  display: flex;
+  align-items: center;
+
+  gap: 0.85rem;
+
+  padding-bottom: 1.1rem;
+
+  border-bottom: 1px solid #eceef4;
+}
+
+
+.historyVideoIcon {
+  min-width: 2.8rem;
+  height: 2.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.7rem;
+
+  background-color: #f2efff;
+
+  color: #5f56ef;
+}
+
+
+.historyVideoIcon svg {
+  font-size: 1.45rem;
+}
+
+
+.historyCode span {
+  color: #8992aa;
+
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+
+.historyCode h3 {
+  margin: 0.15rem 0 0;
+
+  color: #17203c;
+
+  font-size: 1rem;
+  font-weight: 650;
+
+  word-break: break-all;
+}
+
+
+
+/* Date and Time */
+
+.historyCardDetails {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.85rem;
+
+  padding: 1.1rem 0;
+}
+
+
+.historyDetail {
+  display: flex;
+  align-items: center;
+
+  gap: 0.7rem;
+}
+
+
+.historyDetail > svg {
+  color: #687494;
+
+  font-size: 1.25rem;
+}
+
+
+.historyDetail span {
+  display: block;
+
+  color: #969eb2;
+
+  font-size: 0.68rem;
+}
+
+
+.historyDetail p {
+  margin: 0.08rem 0 0;
+
+  color: #4d5875;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+
+
+/* Join Again */
+
+.joinAgainButton {
+  width: 100%;
+  height: 2.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+
+  border: none;
+  border-radius: 0.55rem;
+
+  background: linear-gradient(90deg, #4967EA, #5a48ef);
+
+  color: white;
+
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 5px 12px rgba(73, 103, 234, 0.15);
+}
+
+
+.joinAgainButton:hover {
+  box-shadow: 0 7px 16px rgba(73, 103, 234, 0.23);
+}
+
+
+.joinAgainButton svg {
+  font-size: 1.15rem;
+}
+
+
+
+/* Empty History */
+
+.emptyHistory {
+  width: 25rem;
+  max-width: 90%;
+
+  margin: 5rem auto 0;
+
+  padding: 2.5rem 2rem;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  border: 1px solid #e3e5ef;
+  border-radius: 1rem;
+
+  background-color: rgba(255, 255, 255, 0.95);
+
+  box-shadow: 0 8px 24px rgba(73, 83, 130, 0.07);
+}
+
+
+.emptyHistoryIcon {
+  width: 4rem;
+  height: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background-color: #f2efff;
+
+  color: #5d55ef;
+}
+
+
+.emptyHistoryIcon svg {
+  font-size: 2rem;
+}
+
+
+.emptyHistory h2 {
+  margin: 1rem 0 0.4rem;
+
+  color: #17203c;
+
+  font-size: 1.25rem;
+}
+
+
+.emptyHistory p {
+  margin: 0;
+
+  color: #7b849d;
+
+  font-size: 0.85rem;
+}
+
+
+.emptyHistory button {
+  margin-top: 1.4rem;
+
+  padding: 0.7rem 1.2rem;
+
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  border: none;
+  border-radius: 0.55rem;
+
+  background: linear-gradient(
+    90deg,
+    #4967EA,
+    #5a48ef
+  );
+
+  color: white;
+
+  font-family: inherit;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 700px) {
+
+  .historyNavbar {
+    padding: 0 1rem;
+  }
+
+
+  .historyBrand h2 {
+    font-size: 1rem;
+  }
+
+
+  .historyHomeButton span {
+    display: none;
+  }
+
+
+  .historyMain {
+    padding: 2.5rem 1.2rem;
+  }
+
+
+  .historyHeading h1 {
+    font-size: 1.9rem;
+  }
+
+
+  .historyHeading p {
+    font-size: 0.85rem;
+  }
+
+}
+
+@media (max-width: 520px) {
+
+  .historyNavbar {
+    height: 4rem;
+    padding: 0 0.8rem;
+  }
+
+  .historyBrand h2 {
+    display: none;
+  }
+
+  .historyBrand img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .historyNavRight {
+    gap: 0.2rem;
+  }
+
+  .historyHomeButton,
+  .historyLogoutButton {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .historyMain {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .historyHeading {
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  .historyTitleIcon {
+    width: 2.8rem;
+    height: 2.8rem;
+    min-width: 2.8rem;
+  }
+
+  .historyHeading h1 {
+    font-size: 1.65rem;
+  }
+
+  .historyHeading p {
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  .historyCards {
+    grid-template-columns: 1fr;
+  }
+
+  .meetingHistoryCard {
+    width: 100%;
+  }
+
+}
+
